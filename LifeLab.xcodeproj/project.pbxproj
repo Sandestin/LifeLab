@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC58DABD25A838860095923D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DABC25A838860095923D /* Tests_iOS.swift */; };
+		FC58DAC825A838860095923D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAC725A838860095923D /* Tests_macOS.swift */; };
+		FC58DACA25A838860095923D /* LifeLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAA125A838850095923D /* LifeLabApp.swift */; };
+		FC58DACB25A838860095923D /* LifeLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAA125A838850095923D /* LifeLabApp.swift */; };
+		FC58DACC25A838860095923D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAA225A838850095923D /* ContentView.swift */; };
+		FC58DACD25A838860095923D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAA225A838850095923D /* ContentView.swift */; };
+		FC58DACE25A838860095923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC58DAA325A838860095923D /* Assets.xcassets */; };
+		FC58DACF25A838860095923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC58DAA325A838860095923D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC58DAB925A838860095923D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC58DA9C25A838850095923D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC58DAA725A838860095923D;
+			remoteInfo = "LifeLab (iOS)";
+		};
+		FC58DAC425A838860095923D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC58DA9C25A838850095923D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC58DAAF25A838860095923D;
+			remoteInfo = "LifeLab (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC58DAA125A838850095923D /* LifeLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLabApp.swift; sourceTree = "<group>"; };
+		FC58DAA225A838850095923D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC58DAA325A838860095923D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC58DAA825A838860095923D /* LifeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC58DAAB25A838860095923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC58DAB025A838860095923D /* LifeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC58DAB225A838860095923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC58DAB325A838860095923D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FC58DAB825A838860095923D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC58DABC25A838860095923D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		FC58DABE25A838860095923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC58DAC325A838860095923D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC58DAC725A838860095923D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		FC58DAC925A838860095923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC58DAA525A838860095923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAAD25A838860095923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAB525A838860095923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAC025A838860095923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC58DA9B25A838850095923D = {
+			isa = PBXGroup;
+			children = (
+				FC58DAA025A838850095923D /* Shared */,
+				FC58DAAA25A838860095923D /* iOS */,
+				FC58DAB125A838860095923D /* macOS */,
+				FC58DABB25A838860095923D /* Tests iOS */,
+				FC58DAC625A838860095923D /* Tests macOS */,
+				FC58DAA925A838860095923D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC58DAA025A838850095923D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DAA125A838850095923D /* LifeLabApp.swift */,
+				FC58DAA225A838850095923D /* ContentView.swift */,
+				FC58DAA325A838860095923D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FC58DAA925A838860095923D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DAA825A838860095923D /* LifeLab.app */,
+				FC58DAB025A838860095923D /* LifeLab.app */,
+				FC58DAB825A838860095923D /* Tests iOS.xctest */,
+				FC58DAC325A838860095923D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC58DAAA25A838860095923D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DAAB25A838860095923D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		FC58DAB125A838860095923D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DAB225A838860095923D /* Info.plist */,
+				FC58DAB325A838860095923D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FC58DABB25A838860095923D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DABC25A838860095923D /* Tests_iOS.swift */,
+				FC58DABE25A838860095923D /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		FC58DAC625A838860095923D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC58DAC725A838860095923D /* Tests_macOS.swift */,
+				FC58DAC925A838860095923D /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC58DAA725A838860095923D /* LifeLab (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC58DAD225A838860095923D /* Build configuration list for PBXNativeTarget "LifeLab (iOS)" */;
+			buildPhases = (
+				FC58DAA425A838860095923D /* Sources */,
+				FC58DAA525A838860095923D /* Frameworks */,
+				FC58DAA625A838860095923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LifeLab (iOS)";
+			productName = "LifeLab (iOS)";
+			productReference = FC58DAA825A838860095923D /* LifeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC58DAAF25A838860095923D /* LifeLab (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC58DAD525A838860095923D /* Build configuration list for PBXNativeTarget "LifeLab (macOS)" */;
+			buildPhases = (
+				FC58DAAC25A838860095923D /* Sources */,
+				FC58DAAD25A838860095923D /* Frameworks */,
+				FC58DAAE25A838860095923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LifeLab (macOS)";
+			productName = "LifeLab (macOS)";
+			productReference = FC58DAB025A838860095923D /* LifeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC58DAB725A838860095923D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC58DAD825A838860095923D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				FC58DAB425A838860095923D /* Sources */,
+				FC58DAB525A838860095923D /* Frameworks */,
+				FC58DAB625A838860095923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC58DABA25A838860095923D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = FC58DAB825A838860095923D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FC58DAC225A838860095923D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC58DADB25A838860095923D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				FC58DABF25A838860095923D /* Sources */,
+				FC58DAC025A838860095923D /* Frameworks */,
+				FC58DAC125A838860095923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC58DAC525A838860095923D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = FC58DAC325A838860095923D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC58DA9C25A838850095923D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FC58DAA725A838860095923D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FC58DAAF25A838860095923D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FC58DAB725A838860095923D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FC58DAA725A838860095923D;
+					};
+					FC58DAC225A838860095923D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FC58DAAF25A838860095923D;
+					};
+				};
+			};
+			buildConfigurationList = FC58DA9F25A838850095923D /* Build configuration list for PBXProject "LifeLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC58DA9B25A838850095923D;
+			productRefGroup = FC58DAA925A838860095923D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC58DAA725A838860095923D /* LifeLab (iOS) */,
+				FC58DAAF25A838860095923D /* LifeLab (macOS) */,
+				FC58DAB725A838860095923D /* Tests iOS */,
+				FC58DAC225A838860095923D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC58DAA625A838860095923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DACE25A838860095923D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAAE25A838860095923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DACF25A838860095923D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAB625A838860095923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAC125A838860095923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC58DAA425A838860095923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DACC25A838860095923D /* ContentView.swift in Sources */,
+				FC58DACA25A838860095923D /* LifeLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAAC25A838860095923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DACD25A838860095923D /* ContentView.swift in Sources */,
+				FC58DACB25A838860095923D /* LifeLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DAB425A838860095923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DABD25A838860095923D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC58DABF25A838860095923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC58DAC825A838860095923D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC58DABA25A838860095923D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC58DAA725A838860095923D /* LifeLab (iOS) */;
+			targetProxy = FC58DAB925A838860095923D /* PBXContainerItemProxy */;
+		};
+		FC58DAC525A838860095923D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC58DAAF25A838860095923D /* LifeLab (macOS) */;
+			targetProxy = FC58DAC425A838860095923D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC58DAD025A838860095923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC58DAD125A838860095923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC58DAD325A838860095923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jonatt.LifeLab;
+				PRODUCT_NAME = LifeLab;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC58DAD425A838860095923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jonatt.LifeLab;
+				PRODUCT_NAME = LifeLab;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC58DAD625A838860095923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jonatt.LifeLab;
+				PRODUCT_NAME = LifeLab;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC58DAD725A838860095923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jonatt.LifeLab;
+				PRODUCT_NAME = LifeLab;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FC58DAD925A838860095923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jonatt.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LifeLab (iOS)";
+			};
+			name = Debug;
+		};
+		FC58DADA25A838860095923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jonatt.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LifeLab (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC58DADC25A838860095923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jonatt.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LifeLab (macOS)";
+			};
+			name = Debug;
+		};
+		FC58DADD25A838860095923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DLA6F48KQ;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jonatt.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LifeLab (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC58DA9F25A838850095923D /* Build configuration list for PBXProject "LifeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC58DAD025A838860095923D /* Debug */,
+				FC58DAD125A838860095923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC58DAD225A838860095923D /* Build configuration list for PBXNativeTarget "LifeLab (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC58DAD325A838860095923D /* Debug */,
+				FC58DAD425A838860095923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC58DAD525A838860095923D /* Build configuration list for PBXNativeTarget "LifeLab (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC58DAD625A838860095923D /* Debug */,
+				FC58DAD725A838860095923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC58DAD825A838860095923D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC58DAD925A838860095923D /* Debug */,
+				FC58DADA25A838860095923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC58DADB25A838860095923D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC58DADC25A838860095923D /* Debug */,
+				FC58DADD25A838860095923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC58DA9C25A838850095923D /* Project object */;
+}
