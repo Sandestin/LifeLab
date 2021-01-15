@@ -15,6 +15,20 @@
 		FC58DACD25A838860095923D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAA225A838850095923D /* ContentView.swift */; };
 		FC58DACE25A838860095923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC58DAA325A838860095923D /* Assets.xcassets */; };
 		FC58DACF25A838860095923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC58DAA325A838860095923D /* Assets.xcassets */; };
+		FC58DAE325A838C00095923D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAE225A838C00095923D /* SwiftUIView.swift */; };
+		FC58DAE925A83CC20095923D /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAE825A83CC20095923D /* MetalView.swift */; };
+		FC58DAEA25A83CC20095923D /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAE825A83CC20095923D /* MetalView.swift */; };
+		FC58DAF025A856100095923D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAEF25A856100095923D /* Renderer.swift */; };
+		FC58DAF125A856100095923D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAEF25A856100095923D /* Renderer.swift */; };
+		FC58DAF725A857E00095923D /* cameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAF625A857E00095923D /* cameraController.swift */; };
+		FC58DAF825A857E00095923D /* cameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAF625A857E00095923D /* cameraController.swift */; };
+		FC58DAFE25A85C4F0095923D /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAFD25A85C4F0095923D /* MathUtilities.swift */; };
+		FC58DAFF25A85C4F0095923D /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58DAFD25A85C4F0095923D /* MathUtilities.swift */; };
+		FC58DB0525A881B10095923D /* 2D-Display.metal in Sources */ = {isa = PBXBuildFile; fileRef = FC58DB0425A881B10095923D /* 2D-Display.metal */; };
+		FC58DB0625A881B10095923D /* 2D-Display.metal in Sources */ = {isa = PBXBuildFile; fileRef = FC58DB0425A881B10095923D /* 2D-Display.metal */; };
+		FC58DB1025A883B50095923D /* Conway.metal in Sources */ = {isa = PBXBuildFile; fileRef = FC58DB0F25A883B50095923D /* Conway.metal */; };
+		FC58DB1125A883B50095923D /* Conway.metal in Sources */ = {isa = PBXBuildFile; fileRef = FC58DB0F25A883B50095923D /* Conway.metal */; };
+		FCE0E65725ADE27A00E04185 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0E65625ADE27A00E04185 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,14 @@
 		FC58DAC325A838860095923D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC58DAC725A838860095923D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FC58DAC925A838860095923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC58DAE225A838C00095923D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		FC58DAE825A83CC20095923D /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		FC58DAEF25A856100095923D /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		FC58DAF625A857E00095923D /* cameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraController.swift; sourceTree = "<group>"; };
+		FC58DAFD25A85C4F0095923D /* MathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		FC58DB0425A881B10095923D /* 2D-Display.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "2D-Display.metal"; sourceTree = "<group>"; };
+		FC58DB0F25A883B50095923D /* Conway.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Conway.metal; sourceTree = "<group>"; };
+		FCE0E65625ADE27A00E04185 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,12 @@
 				FC58DAA125A838850095923D /* LifeLabApp.swift */,
 				FC58DAA225A838850095923D /* ContentView.swift */,
 				FC58DAA325A838860095923D /* Assets.xcassets */,
+				FC58DAE825A83CC20095923D /* MetalView.swift */,
+				FC58DAEF25A856100095923D /* Renderer.swift */,
+				FC58DAF625A857E00095923D /* cameraController.swift */,
+				FC58DAFD25A85C4F0095923D /* MathUtilities.swift */,
+				FC58DB0425A881B10095923D /* 2D-Display.metal */,
+				FC58DB0F25A883B50095923D /* Conway.metal */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -120,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				FC58DAAB25A838860095923D /* Info.plist */,
+				FCE0E65625ADE27A00E04185 /* SwiftUIView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -129,6 +158,7 @@
 			children = (
 				FC58DAB225A838860095923D /* Info.plist */,
 				FC58DAB325A838860095923D /* macOS.entitlements */,
+				FC58DAE225A838C00095923D /* SwiftUIView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -308,7 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC58DAF025A856100095923D /* Renderer.swift in Sources */,
+				FC58DAE925A83CC20095923D /* MetalView.swift in Sources */,
+				FCE0E65725ADE27A00E04185 /* SwiftUIView.swift in Sources */,
+				FC58DAF725A857E00095923D /* cameraController.swift in Sources */,
 				FC58DACC25A838860095923D /* ContentView.swift in Sources */,
+				FC58DB0525A881B10095923D /* 2D-Display.metal in Sources */,
+				FC58DAFE25A85C4F0095923D /* MathUtilities.swift in Sources */,
+				FC58DB1025A883B50095923D /* Conway.metal in Sources */,
 				FC58DACA25A838860095923D /* LifeLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,8 +354,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC58DAFF25A85C4F0095923D /* MathUtilities.swift in Sources */,
+				FC58DAF825A857E00095923D /* cameraController.swift in Sources */,
+				FC58DAEA25A83CC20095923D /* MetalView.swift in Sources */,
+				FC58DB1125A883B50095923D /* Conway.metal in Sources */,
 				FC58DACD25A838860095923D /* ContentView.swift in Sources */,
 				FC58DACB25A838860095923D /* LifeLabApp.swift in Sources */,
+				FC58DAF125A856100095923D /* Renderer.swift in Sources */,
+				FC58DB0625A881B10095923D /* 2D-Display.metal in Sources */,
+				FC58DAE325A838C00095923D /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
